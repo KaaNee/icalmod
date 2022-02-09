@@ -23,13 +23,14 @@ END:VEVENT
 _Target:_
 ```
 BEGIN:VEVENT
-DTSTAMP:20220209T194642Z
-DTSTART;VALUE=DATE:20210114
-DURATION:P1D
-SUMMARY:Restmüll 2 wö.
-UID:c0c097a5-31b7-4d07-9a0a-beecdefff0cb
+    DTSTAMP:20220209T194642Z
+    DTSTART;VALUE=DATE:20210114
+    DURATION:P1D
+    SUMMARY:Restmüll 2 wö.
+    UID:c0c097a5-31b7-4d07-9a0a-beecdefff0cb
 END:VEVENT
 ```
+
 - alarm removed (Google Calender support own alarm creation in calendar-settings for single and whole-day appointments)
 - Set DTStart to Midnight (for creating 1 day appointment)
 - Duration instead of DTEND used (Duration 1 DAY)
